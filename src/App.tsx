@@ -286,7 +286,7 @@ export default function App() {
           </button>
 
           {(isSorting) && (
-            <button className="btn btn-outline" onClick={stopSorting} style={{ color: '#ef4444', borderColor: 'rgba(239, 68, 68, 0.2)' }}>
+            <button className="btn btn-outline btn-danger" onClick={stopSorting}>
               <Square size={18} /> Stop
             </button>
           )}
